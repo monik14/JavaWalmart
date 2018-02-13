@@ -28,11 +28,9 @@ class Reversing
 
 		byte [] finalResult = new byte [byteArrayFromStr.length];
 
-		// Store result in reverse order into the
-		// result byte[]
+		// Store result in reverse order into the finalResult byte[]
 		for (int i = 0; i<byteArrayFromStr.length; i++)
-			finalResult[i] = 
-					byteArrayFromStr[byteArrayFromStr.length-i-1];
+			finalResult[i] = byteArrayFromStr[byteArrayFromStr.length-i-1];
 
 		System.out.println(new String(finalResult));
 	}
