@@ -17,7 +17,7 @@ class Reversing
 	public static void main(String[] args)
 	{		
 		Scanner scanner = new Scanner( System.in );
-		System.out.print( "Type some data for the program: " );
+		System.out.print( "Enter the string that you want to reverse: " );
 		String input = scanner.nextLine();
 		System.out.println( "input = " + input );
 		scanner.close();
@@ -26,8 +26,7 @@ class Reversing
 		// into bytes[].
 		byte [] byteArrayFromStr = input.getBytes();
 
-		byte [] finalResult = 
-				new byte [byteArrayFromStr.length];
+		byte [] finalResult = new byte [byteArrayFromStr.length];
 
 		// Store result in reverse order into the
 		// result byte[]
