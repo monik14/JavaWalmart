@@ -15,9 +15,7 @@ import java.util.Scanner;
 class Reversing
 {
 	public static void main(String[] args)
-	{
-		//String input = "GeeksforGeeks";
-		
+	{		
 		Scanner scanner = new Scanner( System.in );
 		System.out.print( "Type some data for the program: " );
 		String input = scanner.nextLine();
