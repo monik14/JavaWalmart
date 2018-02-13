@@ -5,6 +5,7 @@ package assignment;
  *
  */
 //I have developed a Java program to Reverse a given string using ByteArray and asking user to input string using Scanner class
+//The time complexity depends on the way you write your code. O(n) or O(n/2). If we use more for loops than the complexity will be high.
 
 import java.lang.*;
 import java.io.*;
